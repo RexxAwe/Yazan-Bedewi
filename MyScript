@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "Equinox Hub - FE ScriptHub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest", IntroText = "Equinox Hub | FE Universal Scripthub", IntroIcon = "rbxassetid://6031094686", Icon = "rbxassetid://6031094686"})
+local Window = OrionLib:MakeWindow({Name = "Yazan❤️Dida", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest", IntroText = "Welcome to my Script Yazan❤👑", IntroIcon = "rbxassetid://6031094686", Icon = "rbxassetid://6031094686"})
 
 --[[
 Name = <string> - The name of the UI.
@@ -27,7 +27,7 @@ local Section = Tab:AddSection({
 
 
 Tab:AddSlider({
-	Name = "Walkspeed",
+	Name = "السرعه",
 	Min = 0,
 	Max = 500,
 	Default = 16,
@@ -41,7 +41,7 @@ Tab:AddSlider({
 
 
 Tab:AddSlider({
-	Name = "Jump Power",
+	Name = "قوة النطة",
 	Min = 0,
 	Max = 500,
 	Default = 50,
@@ -6325,20 +6325,20 @@ end})
 
 -- Credits tab -- 
 local Tab = Window:MakeTab({
-	Name = "Credits",
+	Name = "حقوق الطبع والنشر",
 	Icon = "rbxassetid://6034287513",
 	PremiumOnly = false
 })
 
 
 local Section = Tab:AddSection({
-	Name = "Credits"
+	Name = "حقوق الطبع والنشر"
 })
 
-Tab:AddLabel("Last Updated: 9/21/2022")
+Tab:AddLabel("Last Updated: 1/11/2025")
 
 
-Tab:AddParagraph("Owner","Equinox Hub was made by Mr_BullFrog")
+Tab:AddParagraph("Owner","Yazan Bedewi")
 
 
 Tab:AddButton({
@@ -6350,7 +6350,7 @@ Tab:AddButton({
 
 
 Tab:AddButton({
-	Name = "Click to copy discord Invite",
+	Name = "Click to copy instagram ",
 	Callback = function()
     OrionLib:MakeNotification({
 	Name = "Link copied",
@@ -6358,14 +6358,14 @@ Tab:AddButton({
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
-    setclipboard(tostring('https://discord.gg/f26Vp8CzaZ')) 
+    setclipboard(tostring('انسا')) 
   	end    
 })
 
 
 Tab:AddParagraph("UI Library","Huge thanks to Orion for the UI Library")
 
-Tab:AddParagraph("Suggestions","If you have any suggestions please message me on discord. leg#8995.")
+Tab:AddParagraph("Suggestions","If you have any suggestions please message me on instagram. yzn.avk.")
 
 
 
